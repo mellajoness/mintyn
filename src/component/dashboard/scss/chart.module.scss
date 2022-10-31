@@ -1,0 +1,70 @@
+.parent{
+    background-color: white;
+    height: 230px;
+    margin-top: 2em;
+    width: 65%;
+    border: 1px solid #EEF8FD;
+    border-radius: 2px;
+}
+.date{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end; 
+    color: #4F4F4F;   
+}
+.dropdown{
+    color: #24266C;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 17px;  
+    letter-spacing: 0.3px;
+    padding: 0.5em;
+    cursor: pointer;
+    border: 1px solid #DDE0E3;
+    border-radius: 4.25px;
+    margin-right: 1.5em;
+}
+.dateParent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em 0em 1em;
+}
+.nextRow{
+    display: flex;
+}
+.next{
+    background: linear-gradient(0deg, #F2F4F7 0%, #FFFFFF 100%);
+    border: 1px solid #CED0DA;
+    border-radius: 4px;
+    margin-right: 0.8em;
+    // padding: 0.3em 1em;
+}
+@media screen and (max-width: 819px) {
+    .dropdown{
+        height: 26px;
+    }
+    .next{
+        height: 26px;
+    }
+    .date{
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 773) {
+    .dropdown{
+        height: 16px;
+    }
+    .next{
+        height: 16px;
+    }
+    .date{
+        font-size: 0.3em;
+        line-height: 12px;
+    }
+}

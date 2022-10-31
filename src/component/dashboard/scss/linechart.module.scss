@@ -1,0 +1,62 @@
+.parent{
+    margin-top: 1.6em;
+    width: 45%;
+    margin-left: 0.37em;
+}
+.box{
+    background-color: white;
+    height: 113px;
+    margin-top: 0.37em;
+    border: 1px solid #EEF8FD;
+    border-radius: 2px;
+    padding: 0.6em;
+}
+.order{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 19px;
+    color: #262626;   
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding-top: 0.3em;
+}
+.orderType{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    line-height: 18px;
+    color: #262626;
+}
+.pendingNumb{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.72em;
+    line-height: 18px;
+    color:#EBC315; 
+    padding-left: 0.3em;   
+}
+.total{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.72em;
+    line-height: 18px;
+    color:#1860EC; 
+    padding-left: 0.3em;   
+}
+.green{
+    background: #27AE60;
+    border: 2px solid  #27AE60;
+    width: 80%;
+}
+.orange{
+    background: #27AE60;
+    border: 2px solid#FDC203;
+    width: 20%;
+}
